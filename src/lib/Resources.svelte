@@ -5,6 +5,22 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "League Spreadsheet",
+            url: "https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing",
+            icon: "insights",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
+            name: "Keep, Trade, Cut",
+            url: "https://keeptradecut.com/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
