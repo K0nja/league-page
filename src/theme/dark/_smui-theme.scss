@@ -34,6 +34,7 @@
 
 :root {
   --fff: #000000;
+  --fffTransparent: rgba(0,0,0,0);
   --f8f8f8: #070707;
   --f3f3f3: #0d0d0d;
   --eee: #1b1b1b;
@@ -71,6 +72,7 @@
   --r3: #181a18;
   --headerPrimary: #2a2e31;
   --borderOverride: rgba(255,255,255,.3);
+  --rivalryBack: #333;
 
   // Chart bar colors
   --barChartOne: #446a88;
@@ -79,6 +81,12 @@
   --barChartFour: #198886;
   --barChartFive: #2b8673;
   --barChartSix: #448864;
+
+  // Comparisson bar colors
+  --compBarOne: #446a88;
+  --compBarTwo: #448864;
+  --compBarOneText: #7fc4f5;
+  --compBarTwoText: #79edad;
   
   // Positions
   --QBfade: #ff8fb2;

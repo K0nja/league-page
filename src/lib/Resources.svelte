@@ -5,6 +5,46 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "League Constitution",
+            url: "https://drive.google.com/file/d/1gXYXkf3ZaOuUy2EqqQbw_z3vVnOwntB4/view?usp=sharing",
+            icon: "article",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
+            name: "League Spreadsheet",
+            url: "https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing",
+            icon: "insights",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
+            name: "League Twitter Page",
+            url: "https://twitter.com/HaiwanDynasty",
+            icon: "podcasts",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
+            name: "Keep, Trade, Cut",
+            url: "https://keeptradecut.com/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
+            name: "Fantasy Calc",
+            url: "https://fantasycalc.com/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
@@ -87,7 +127,15 @@ import { dynasty } from './utils/helper';
             url: "https://www.reddit.com/r/TradeAnalyzerFF/",
             icon: "assessment",
             premium: false,
+            separator: true,
+        },
+        {
+            name: "FantasyCalc Trade Calculator",
+            url: "https://www.fantasycalc.com/trade-calculator",
+            icon: "calculate",
+            premium: false,
             separator: false,
+            dynastyOnly: false,
         },
     ];
 </script>
