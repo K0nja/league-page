@@ -13,6 +13,14 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
+            name: "League Twitter Page",
+            url: "https://twitter.com/HaiwanDynasty",
+            icon: "podcasts",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
             name: "Keep, Trade, Cut",
             url: "https://keeptradecut.com/",
             icon: "calculate",
