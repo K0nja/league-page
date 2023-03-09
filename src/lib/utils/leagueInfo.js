@@ -8,6 +8,8 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 /*   STEP 2   */
 export const homepageText = `
   <p>This is our home league, started in like 2015 as a redraft league and then we made the plunge to dynasty in 2019.</p>
+  <p>We have a twitter to keep up with all our league news if you're interested!</p>
+  <a href="https://twitter.com/HaiwanDynasty">Click here to go to our Twitter</a>
   <p>Matt McCourt is the commish and has never won a playoff game :~)</p>
   <p></p>
   <p>If anyone has something good to put here, let me (Mario) know </p>
