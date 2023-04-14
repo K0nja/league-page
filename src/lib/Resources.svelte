@@ -29,6 +29,14 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
+            name: "Fantasy Calc",
+            url: "https://fantasycalc.com/",
+            icon: "calculate",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
