@@ -97,7 +97,7 @@
 
 <div class="constitution">
     <h1 class="noUnderscore">LEAGUE OF HAIWANS CONSTITUTION</h1>
-    <a href="https://drive.google.com/file/d/1bbFaXZi5XYgn8QciaU-7Wq8b_eKFxPQK/view?usp=sharing">click here for pdf version</a>
+    <a href="https://drive.google.com/file/d/1gXYXkf3ZaOuUy2EqqQbw_z3vVnOwntB4/view?usp=sharing">click here for pdf version</a>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     

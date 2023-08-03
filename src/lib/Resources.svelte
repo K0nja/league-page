@@ -6,7 +6,7 @@ import { dynasty } from './utils/helper';
     const resources = [
         {
             name: "League Constitution",
-            url: "https://drive.google.com/file/d/1bbFaXZi5XYgn8QciaU-7Wq8b_eKFxPQK/view?usp=sharing",
+            url: "https://drive.google.com/file/d/1gXYXkf3ZaOuUy2EqqQbw_z3vVnOwntB4/view?usp=sharing",
             icon: "article",
             premium: false,
             separator: true,
