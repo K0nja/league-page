@@ -5,6 +5,13 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "League Constitution",
+            url: "https://drive.google.com/file/d/1bbFaXZi5XYgn8QciaU-7Wq8b_eKFxPQK/view?usp=sharing",
+            icon: "article",
+            premium: false,
+            separator: true,
+            dynastyOnly: true,
+        }{
             name: "League Spreadsheet",
             url: "https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing",
             icon: "insights",
