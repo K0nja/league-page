@@ -11,7 +11,8 @@ import { dynasty } from './utils/helper';
             premium: false,
             separator: true,
             dynastyOnly: true,
-        }{
+        },
+        {
             name: "League Spreadsheet",
             url: "https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing",
             icon: "insights",
