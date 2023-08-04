@@ -134,7 +134,7 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Scoring Format</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Official Statistics, Scoring Changes, & League Rules Discrepancies</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Official Statistics, Scoring Changes, & League Rule Discrepancies</h3>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Section 10: Owner Responsibilities</h3>
     
@@ -343,7 +343,7 @@ reprimanded accordingly.</p>
         <li>Reception: .5 points</li>
     </ul>
 
-    <h2 class="sectionHeading" bind:this={nine}>Section 9: Official Statistics, Scoring Changes, & League Rules Discrepancies</h2>
+    <h2 class="sectionHeading" bind:this={nine}>Section 9: Official Statistics, Scoring Changes, & League Rule Discrepancies</h2>
     <p>Every week after all NFL games are played and all fantasy scores are calculated, the Elias Sports Bureau
 reviews all NFL games for the purposes of locating and calculating any necessary corrections to the official
 team and player statistics compiled during each game. These corrections are applied to league scores when
