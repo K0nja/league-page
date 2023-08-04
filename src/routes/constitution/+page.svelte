@@ -235,7 +235,7 @@
         <li>5 Taxi</li>
     </ul>
 
-    <h2 class="sectionHeading" bind:this={four}>Section 4: Waiver Wire</h2>\
+    <h2 class="sectionHeading" bind:this={four}>Section 4: Waiver Wire</h2>
     <p>Any player not on a league roster is considered a free agent. Free agents may be claimed by managers through blind bidding. Blind bidding will take place using virtual currency with the manager's Free Agent Acquisition Budget (outlined below).</p>
     <p></p>
     <p>After games have concluded for the weekend, waivers will clear starting on Wednesday morning, and then every following morning at 3:05 AM EST.</p>
