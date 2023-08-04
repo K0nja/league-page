@@ -212,14 +212,14 @@
     <p></p>
     <p>If you have a player on IR who is no longer IR eligible, you must create room by dropping someone from your bench before you can make further Free Agent, Waiver, or Starting Lineup moves. (Sleeper preserves a player's IR designation if they get a season-ending injury until May 1st of the following year).</p>
 
-    <h3 bind:this={threeOne}>3.3 Taxi Squads</h3>
+    <h3 bind:this={threeThree}>3.3 Taxi Squads</h3>
     <p>Each team is granted five (5) taxi squad slots to stash rookies only. After the rookie drafts, managers are able to move any drafted rookie (including undrafted free agent rookies picked up via waivers) to the Taxi Squad, pending an available slot. Players are eligible to be on the Taxi Squad during their rookie and sophomore years in the NFL. Once their sophomore year has concluded, players must be moved to the active roster.</p>
     <p></p>
     <p>Taxi Squads are strictly for rookies and may not be added to during the season. This allows for players to be retained by managers while they develop during their first two years in the NFL.</p>
     <p></p>
     <p>Taxi Squad players are ineligible for starting lineups. <b>If a player is taken off the Taxi Squad, that player is no longer eligible to be added back to the Taxi Squad.</b></p>
 
-    <h3 bind:this={threeOne}>3.4 Roster Format</h3>
+    <h3 bind:this={threeFour}>3.4 Roster Format</h3>
     <ul>
         <li>QB</li>
         <li>RB</li>
