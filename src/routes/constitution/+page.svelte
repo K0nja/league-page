@@ -167,7 +167,7 @@
                 <li>Dropped players will also spend a minimum of 48 hours on the waiver wire</li>
             </ul>
         </li>
-        <li>League Des: <b>See <a href ="https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing">League Tracker Google Sheet</a></b>
+        <li>League Dues: <b>See <a href ="https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing">League Tracker Google Sheet</a></b>
             <ul>
                 <li>Payouts to 1st place, 2nd place, highest weekly point total, & playoff berths</li>
             </ul>
