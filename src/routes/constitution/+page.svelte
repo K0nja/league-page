@@ -109,10 +109,10 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: League Overview</h3>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Fantasy Drafts & Draft Picks</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Inagural Draft</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Annual Rookie & Free Agent Draft</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Inaugural Draft</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Annual Rookie Draft</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Teams, Divisions, & Ownership</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Teams, Divisions, & Management</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Starting Lineups & Rosters</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>3.2 Injured Reserve Slots</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>3.3 Taxi Squads</h4>
@@ -177,10 +177,10 @@
     
     <h2 class="sectionHeading" bind:this={two}>Section 2: Fantasy Drafts & Draft Picks</h2>
     
-    <h3 bind:this={twoOne}>2.1 Inagural Draft</h3>
+    <h3 bind:this={twoOne}>2.1 Inaugural Draft</h3>
     <p>The league initially selected players via a 31-round startup draft on August 18th, 2019 at 10 AM EST. Current NFL players and 2019 rookies were eligible to be selected. Initial draft position was selected at random on August 4th, 2019. Trading of draft position was allowed up until an hour of the draft time. Trading of draft picks was not allowed during the initial draft.</p>
 
-    <h3 bind:this={twoTwo}>2.2 Annual Rookie & Free Agent Draft</h3>
+    <h3 bind:this={twoTwo}>2.2 Annual Rookie Draft</h3>
     <p>The league will conduct annual Rookie drafts for subsequent seasons.</p>
     <p></p>
     <p>Draft dates should be expected to take place after the NFL Draft and before the start of the regular NFL season. The Rookie Draft will consist of <b>4 rounds</b>.</p>
@@ -200,7 +200,7 @@
         <li>10th Pick: The Champion</li>
     </ul>
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3: Teams, Divisions, & Ownership</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3: Teams, Divisions, & Management</h2>
 
     <p>The league consists of 10 Teams (Managers) split into 2 divisions. Each team will play every team in their own division twice and play every team in the other division once with an additional game each year against a team's closest counterpart for a total of 14 regular season games. Divisions are subject to change from year to year by way of the Max Point For order. If a manager should choose not to return, the Commissioner will find a replacement manager using whatever means necessary to keep the league functioning.</p>
 
