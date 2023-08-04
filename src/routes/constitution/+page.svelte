@@ -102,7 +102,7 @@
 
 <div class="constitution">
     <h1 class="noUnderscore">LEAGUE OF HAIWANS CONSTITUTION</h1>
-    <a href="https://drive.google.com/file/d/1gXYXkf3ZaOuUy2EqqQbw_z3vVnOwntB4/view?usp=sharing">click here for pdf version</a>
+    <h1><a href="https://drive.google.com/file/d/1gXYXkf3ZaOuUy2EqqQbw_z3vVnOwntB4/view?usp=sharing">click here for pdf version</a></h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
@@ -167,7 +167,7 @@
                 <li>Dropped players will also spend a minimum of 48 hours on the waiver wire</li>
             </ul>
         </li>
-        <li>League Des: <b>See <a href ="https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing">League Tracker Google Sheet</a></b>
+        <li>League Dues: <b>See <a href ="https://docs.google.com/spreadsheets/d/1qei2R2FiRsNHShmRmlU0yJNMpzEcJy6iSfwEoDAoL4U/edit?usp=sharing">League Tracker Google Sheet</a></b>
             <ul>
                 <li>Payouts to 1st place, 2nd place, highest weekly point total, & playoff berths</li>
             </ul>
