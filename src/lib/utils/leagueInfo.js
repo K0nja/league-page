@@ -94,21 +94,22 @@ export const managers = [
         managerID: "463097467752148992", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "blackzack5000",
         location: "Detroit, MI, USA", // (optional)
-        bio: "Cat advocate",
+        bio:
+            "Full blown cat daddy. Considering a transition to only having players from cat teams - Lions, Jags, Panthers, Bengals. Send trades.",
         photo: "/managers/zack.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2008, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Toilet Bowlers", // Can be anything (usually your rival's name)
+            name: "TBD", // Can be anything (usually your rival's name)
             link: null, // manager array number within this array, or null to link back to all managers page
             image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 2306, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        valuePosition: "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        valuePosition: "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "If McCourt can't even win a playoff game, what's the point of trying to push in the chips. #Rebuild4Life",
+            "Be a clear top team in the league or gtfo. I want to always be in a position where I have enough equity to take risky upside shots without being fucked if it doesn't work out. ",
         tradingScale: 10, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
