@@ -1,6 +1,7 @@
 /*   STEP 1   */
 export const leagueID = "936631911483613184"; // your league ID
 export const leagueName = "League of Haiwans"; // your league name
+export const dues = 100;
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
@@ -29,7 +30,7 @@ export const managers = [
         name: "Konja",
         location: "Dearborn, MI, USA", // (optional)
         bio:
-            "I am always bad and I make dumb bets.  I have donated my buy-in for 4 straight years.  Here's to at least 4 more 🍻🥂",
+            "I am always bad and I make dumb bets.  I have donated dues for 4 straight years.  Here's to at least 4 more 🍻🥂",
         photo: "/managers/konja.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2014, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
