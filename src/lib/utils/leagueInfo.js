@@ -85,7 +85,7 @@ export const managers = [
         favoritePlayer: 4046, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-        philosophy: "I should’ve won the league by now.",
+        philosophy: "I should've won the league by now.",
         tradingScale: 8, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -107,7 +107,7 @@ export const managers = [
         valuePosition: "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "If McCourt can’t even win a playoff game, what’s the point of trying to push in the chips. #Rebuild4Life",
+            "If McCourt can't even win a playoff game, what's the point of trying to push in the chips. #Rebuild4Life",
         tradingScale: 10, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -116,7 +116,7 @@ export const managers = [
         name: "klimansc",
         location: "Denver, CO, USA", // (optional)
         bio:
-            "I’m 76-22-18 and counting against Fred in iPhone darts. And no, the rumors are not true, he has not been sandbagging. I'm just that good, challenges accepted. ",
+            "I'm 76-22-18 and counting against Fred in iPhone darts. And no, the rumors are not true, he has not been sandbagging. I'm just that good, challenges accepted. ",
         photo: "/managers/scott.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2001, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
