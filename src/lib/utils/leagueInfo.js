@@ -44,7 +44,7 @@ export const managers = [
         valuePosition: "Picks", // (optional) Favorite position (QB, WR, RB, TE, Picks, DL, SS, DB, and many more)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Sell everything and everyone.  Never buy, only sell.  Don't have a good line up.  Good line ups make you worry and stressed, bad ones have no stress!",
+            "Sell everything and everyone. Never buy, only sell. Don't have a good line up.  Good line ups make you worry and stressed, bad ones have no stress!",
         tradingScale: 10, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
