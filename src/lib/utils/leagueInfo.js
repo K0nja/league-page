@@ -121,21 +121,21 @@ export const managers = [
         name: "klimansc",
         location: "Denver, CO, USA", // (optional)
         bio:
-            "I'm 76-22-18 and counting against Fred in iPhone darts. And no, the rumors are not true, he has not been sandbagging. I'm just that good, challenges accepted. ",
+            "I'm 93-23-19 and counting against Fred in iPhone darts. At the last update, I was 76-22-18, so I'm 17-1-1 against him in the last 19. ",
         photo: "/managers/scott.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2001, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Ketchup Hat", // Can be anything (usually your rival's name)
+            name: "Stupid", // Can be anything (usually your rival's name)
             link: 9, // manager array number within this array(0-9), or null to link back to all managers page
             image: "/managers/kosai.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 394, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        valuePosition: "Picks", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-        philosophy: "Have Fun!",
-        tradingScale: 10, // 1 - 10
+        philosophy: "Have fun, be safe, make good choices!",
+        tradingScale: 9, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
