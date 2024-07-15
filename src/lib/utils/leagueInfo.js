@@ -78,7 +78,7 @@ export const managers = [
             "I'm like John Lynch and the 49ers, I've put together a great roster that wins or competes for the division title every year only to lose in the first round of playoffs and have nothing to show for it - except I'm better at trading than he is.",
         photo: "/managers/mccourt.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2013, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
             name: "Southern Racist Fuck", // Can be anything (usually your rival's name)
