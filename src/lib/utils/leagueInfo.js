@@ -30,21 +30,21 @@ export const managers = [
         name: "Konja",
         location: "Dearborn, MI, USA", // (optional)
         bio:
-            "I am always bad and I make dumb bets.  I have donated dues for 4 straight years.  Here's to at least 4 more 🍻🥂",
+            "I went too far in a rebuild and got very lucky, BUT WE TAKE THOSE.  I have donated dues for 5 straight years.  Here's to at least 5 more 🍻🥂",
         photo: "/managers/konja.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2014, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "cle", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
             name: "Myself", // Can be anything (usually your rival's name)
             link: 0, // manager array number within this array, or null to link back to all managers page
             image: "/managers/konja.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
-        favoritePlayer: 4149, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+        favoritePlayer: 4963, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "Picks", // (optional) Favorite position (QB, WR, RB, TE, Picks, DL, SS, DB, and many more)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Sell everything and everyone.  Never buy, only sell.  Don't have a good line up.  Good line ups make you worry and stressed, bad ones have no stress!",
+            "Depth? Who needs depth? If the big dogs go down I'm losing anyways.",
         tradingScale: 10, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
