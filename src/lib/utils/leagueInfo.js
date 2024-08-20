@@ -166,21 +166,21 @@ export const managers = [
         name: "paynemd",
         location: "Riverview, MI, USA", // (optional)
         bio:
-            "I'm Mike. I'm 31 and married. Got a baby on the way. I love hockey, golf and cornhole. Soccer is a warmup sport. My favorite meal is steak and lobster. Big whiskey fan. Carpe Diem. Live, Laugh, Love. You miss 100% of the shots you don’t take. If you can dream it you can do it. Peace and blessings.",
+            "I'm Mike. I'm 32, married and have a beautiful baby girl. I love hockey, golf, cornhole, whiskey and guns. Soccer is a warmup sport. My favorite meal is steak and lobster. Carpe Diem. Live, Laugh, Love. You miss 100% of the shots you don't take. If you can dream it you can do it. Peace and blessings.",
         photo: "/managers/payne.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2006, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "cle", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Patrick", // Can be anything (usually your rival's name)
-            link: 1, // manager array number within this array, or null to link back to all managers page
-            image: "/managers/pat.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+            name: "Kosai", // Can be anything (usually your rival's name)
+            link: 9, // manager array number within this array, or null to link back to all managers page
+            image: "/managers/kosai.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        valuePosition: "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Rely on the few to carry the many. Balance is overrated. Are running backs important?",
+            "The few carry the many. Depth is unnecessary",
         tradingScale: 7, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
