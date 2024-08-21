@@ -143,23 +143,23 @@ export const managers = [
         name: "Mertic",
         location: "Tweed Heads, NSW, Australia", // (optional)
         bio:
-            "Previous champion, only team to never miss the playoffs, only Australian resident in the league.",
+            "Soon to be the only non 30 year old in this league. Current team principle of Scuderia Nonstop to cockfosters FF1 team, sponsored by the Piccadilly line. Our driver line up of Lamar Jackson & bunch of other guys gives us a great chance to finish 2nd in the Constructors Championship series this year.",
         photo: "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2007, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "bal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Ginger Cunt", // Can be anything (usually your rival's name)
+            name: "The Ranga", // Can be anything (usually your rival's name)
             link: 2, // manager array number within this array, or null to link back to all managers page
             image: "/managers/mccourt.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-        rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+        rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Win as many games as possible. Pray no one gets hurt. Trade my first round pick mid season to someone struggling.",
-        tradingScale: 1, // 1 - 10
-        preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+            "Think about the old days and convince yourself this is the year we get back to the top. Bank on little to no Injuries to our key players and disregard the glaring holes.",
+        tradingScale: 3, // 1 - 10
+        preferredContact: "WhatsApp", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
         managerID: "463158509706407936", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
