@@ -186,7 +186,7 @@ export const managers = [
     },
     {
         managerID: "463158817245360128", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
-        name: "Mazzy13",
+        name: "Mazzy_",
         location: "Allen Park, MI, USA", // (optional)
         bio:
             "Perennial mid-achiever. Wide Receiver enthusiast. Hater of Patty.",
