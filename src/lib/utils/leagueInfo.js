@@ -53,7 +53,7 @@ export const managers = [
         name: "PDSmith",
         location: "Allen Park, MI, USA", // (optional)
         bio:
-            "I won the first Dynasty Championship as the clear-cut favorite. When I'm not winning trophies, in my spare time I enjoy long walks through my neighborhood and crying myself to sleep.",
+            "Hi my name's Pat. I won the league the first year and since then have made the 2 worst trades in league history. Outside of fantasy football I enjoy playing trivia, video games, flag football and isolating myself in my room for days at a time. ",
         photo: "/managers/pat.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2012, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -86,7 +86,7 @@ export const managers = [
             image: "/managers/john.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 654, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        valuePosition: "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        valuePosition: "DE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
             "Fuck Mertic",
