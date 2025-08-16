@@ -112,7 +112,7 @@ export const managers = [
         valuePosition: "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "There was a time, not long past, when the weight of failure was the only thing that kept me afloat. I was a captain of a sinking ship, willfully so—tanking, they called it. It was my way, my name, my soul. The tides of defeat washed over me, season after season, and yet I pressed on through storm and sorrow, chasing some far-off glimmer atop the standings. \n \n" + 
+            "There was a time, not long past, when the weight of failure was the only thing that kept me afloat. I was a captain of a sinking ship, willfully so—tanking, they called it. It was my way, my name, my soul. The tides of defeat washed over me, season after season, and yet I pressed on through storm and sorrow, chasing some far-off glimmer atop the standings. </p></p>" + 
             "And lo, I reached it. The summit. I stood where champions stand, and the wind was still. You'd think triumph would warm these old bones... but tell me—why then do I feel so cold?\n \n" +
             "I find myself gazing astern, past the golden shores, toward those dark and briny depths where loss lived... and you.\n \n" +
             "Ah, the tank—how cruel, how comforting. We were terrible, yes, but we were true. One day, when the cheers fade and the record books close, I shall return to you. For in the silence of defeat, I found something purer than victory.\n \n" +
