@@ -2,6 +2,7 @@
     let secret = '';
     let week = '';
     let postType = 'recap';
+    let customPrompt = '';
     let status = '';
     let loading = false;
     let generatedTitle = '';
@@ -12,10 +13,12 @@
         { value: 'preview',    label: 'Weekly Preview',        weekLabel: 'Week to preview' },
         { value: 'pre-draft',  label: 'Pre-Rookie Draft',      weekLabel: null },
         { value: 'post-draft', label: 'Post-Rookie Draft',     weekLabel: null },
+        { value: 'roast',      label: 'Custom Roast / Bit',    weekLabel: null },
     ];
 
     $: selectedType = postTypes.find(t => t.value === postType);
     $: showWeek = selectedType?.weekLabel != null;
+    $: showCustomPrompt = postType === 'roast';
 
     async function generate() {
         loading = true;
@@ -31,6 +34,7 @@
                     secret,
                     postType,
                     week: showWeek && week ? parseInt(week) : undefined,
+                    customPrompt: showCustomPrompt ? customPrompt : undefined,
                 }),
             });
 
@@ -76,12 +80,19 @@
             </label>
         {/if}
 
+        {#if showCustomPrompt}
+            <label>
+                <span>Your prompt <em>(what should the roast / bit be about?)</em></span>
+                <textarea bind:value={customPrompt} placeholder="e.g. Roast Konja for trading away his best player for peanuts and still somehow talking the most trash in the group chat." rows="5"></textarea>
+            </label>
+        {/if}
+
         <label>
             <span>Secret key</span>
             <input type="password" bind:value={secret} placeholder="BLOG_GENERATE_SECRET" />
         </label>
 
-        <button on:click={generate} disabled={loading || !secret}>
+        <button on:click={generate} disabled={loading || !secret || (showCustomPrompt && !customPrompt.trim())}>
             {loading ? 'Generating...' : 'Generate Post'}
         </button>
     </div>
@@ -136,12 +147,14 @@
         color: #888;
     }
 
-    input, select {
+    input, select, textarea {
         padding: 10px 12px;
         border: 1px solid #ccc;
         border-radius: 6px;
         font-size: 1rem;
         background: white;
+        font-family: sans-serif;
+        resize: vertical;
     }
 
     button {

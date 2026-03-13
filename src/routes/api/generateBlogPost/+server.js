@@ -68,6 +68,8 @@ export async function POST({ request }) {
         prompt = await buildPreDraftPrompt({ leagueData, rosterToManager, rostersData });
     } else if (postType === 'post-draft') {
         prompt = await buildPostDraftPrompt({ leagueData, rosterToManager });
+    } else if (postType === 'roast') {
+        prompt = buildRoastPrompt({ body, rosterToManager });
     } else {
         // default: recap
         prompt = await buildRecapPrompt({ body, leagueData, rosterToManager, currentWeek });
@@ -241,6 +243,28 @@ Write an entertaining post-draft analysis. Cover: the best picks, the biggest re
 
 ${JSON_INSTRUCTIONS.replace('[title]', 'Rookie Draft Recap: [catchy subtitle]').replace('[type]', 'Draft')}
 Use sections: opening paragraph with overall draft vibe, "Best Picks" heading + paragraph, "Biggest Reaches" heading + paragraph, "Draft Grades" heading + paragraph grading each manager A-F with brief reason, closing power ranking paragraph.`;
+}
+
+// ---------------------------------------------------------------------------
+// Custom roast / bit prompt
+// ---------------------------------------------------------------------------
+function buildRoastPrompt({ body, rosterToManager }) {
+    const customPrompt = (body.customPrompt ?? '').trim();
+    const managerList = Object.values(rosterToManager).join(', ');
+
+    return `You are a witty, savage sports writer for "${leagueName}", a dynasty fantasy football league running since 2015 (went dynasty in 2019). Your job is to write hilarious, biting content that roasts leaguemates and stirs the pot.
+
+${MANAGER_CONTEXT}
+
+League managers: ${managerList}
+
+The user wants you to write the following piece:
+"${customPrompt}"
+
+Write this as a full blog post. Be funny, specific, and ruthless — lean into the manager personalities above. Don't hold back.
+
+${JSON_INSTRUCTIONS.replace('[title]', '[catchy, punchy title for this roast/bit]').replace('[type]', 'News')}
+Use at least 3-5 sections mixing headings and paragraphs to give the post structure and punch.`;
 }
 
 // ---------------------------------------------------------------------------
