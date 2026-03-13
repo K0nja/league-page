@@ -329,7 +329,8 @@ async function generateWithGemini(prompt) {
     const response = await ai.models.generateContent({
         model: 'gemini-2.5-flash',
         contents: prompt,
-    });
+    }).catch(e => { console.error(e); throw error(500, `Gemini API error: ${e.message}`); });
+    if (!response?.text) throw error(500, "Gemini returned an empty response");
     return response.text;
 }
 
@@ -340,14 +341,17 @@ async function generateWithClaude(prompt) {
         model: 'claude-sonnet-4-6',
         max_tokens: 1500,
         messages: [{ role: 'user', content: prompt }],
-    });
-    return message.content[0].text;
+    }).catch(e => { console.error(e); throw error(500, `Claude API error: ${e.message}`); });
+    const text = message?.content?.[0]?.text;
+    if (!text) throw error(500, "Claude returned an empty response");
+    return text;
 }
 
 // ---------------------------------------------------------------------------
 // Parse AI JSON response
 // ---------------------------------------------------------------------------
 function parseAIResponse(raw) {
+    if (!raw) throw error(500, "AI returned an empty response");
     const cleaned = raw.replace(/^```json?\s*/i, '').replace(/```\s*$/i, '').trim();
     try {
         return JSON.parse(cleaned);
@@ -391,6 +395,7 @@ async function publishToContentful(parsed) {
         body: { [lang]: buildRichText(parsed.sections) },
         type: { [lang]: parsed.type ?? 'News' },
         author: { [lang]: 'leaguebot' },
+        featured: { [lang]: true },
     };
 
     const entry = await environment.createEntry('blog_post', { fields })
