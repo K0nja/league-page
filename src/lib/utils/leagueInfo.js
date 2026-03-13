@@ -5,6 +5,10 @@ export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
+// (optional) Context injected into AI-generated blog posts. Describe your league's history,
+// tone, running jokes, rivalries, or anything else you want the AI to know.
+export const leagueContext = `Started in 2015 as a redraft league, went dynasty in 2019. 10 managers, $100 dues. Known for trash talk, bad trades, and Jager Cup — an annual event where McCourt gets blackout drunk. The league has a Twitter at @HaiwanDynasty.`;
+
 /*   STEP 2   */
 export const homepageText = `
   <p>This is our home league, started in like 2015 as a redraft league and then we made the plunge to dynasty in 2019.</p>
@@ -28,6 +32,7 @@ export const managers = [
     {
         managerID: "77955166665850880", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "Konja",
+        aiBlurb: "overpays for elite talent, donated dues 6 straight years, finally trying to turn it around", // (optional) short personality note for AI-generated posts
         location: "Dearborn, MI, USA", // (optional)
         bio:
             "I overpay for elite talent and always will.  I have donated dues for 6 straight years.  Here's to hopefully making some back this year 🍻🥂",
@@ -51,6 +56,7 @@ export const managers = [
     {
         managerID: "338741511774535680", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "PDSmith",
+        aiBlurb: "won year 1, made the 2 worst trades in league history, eternal rebuilder",
         location: "Allen Park, MI, USA", // (optional)
         bio:
             "Hi my name's Pat. I won the league the first year and since then have made the 2 worst trades in league history. Outside of fantasy football I enjoy playing trivia, video games, flag football and isolating myself in my room for days at a time. ",
@@ -73,6 +79,7 @@ export const managers = [
     {
         managerID: "462311713048358912", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "mmccourt",
+        aiBlurb: "reigning 2025 champion, Washington fan, gets blackout drunk at Jager Cup, rivals with Mertic",
         location: "Allen Park, MI, USA", // (optional)
         bio:
             "What's left to say. I suck. Maybe I'll get a cat. I got blackout drunk the first night of Jager Cup and got body slammed into a deck. Trying to spice things up in life, change up the routine. My golf handicap fluctuates between 10 and 20. I cannot drink alcohol successfully. #420blazeup",
@@ -96,6 +103,7 @@ export const managers = [
     {
         managerID: "463097467752148992", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "blackzack5000",
+        aiBlurb: "former champion who mastered the tank, now trying to compete again, wrote a love letter to losing",
         location: "Berkley, MI, USA", // (optional)
         bio:
             "I manage a historically volatile dynasty football roster and have 3 cats that hate each other. None of us know peace, but we know persistence.",
@@ -124,6 +132,7 @@ export const managers = [
     {
         managerID: "463130879590395904", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "klimansc",
+        aiBlurb: "fantasy veteran since 2001, 99-23 in iPhone darts vs Fred and waiting for the perfect moment for win 100",
         location: "Denver, CO, USA", // (optional)
         bio:
             "I'm 99-23-21 against Fred in iPhone darts. I told him sending the next game is on him. Whenever he's most confident, that's when I want to take win 100. I've been waiting months.",
@@ -146,6 +155,7 @@ export const managers = [
     {
         managerID: "463133568445444096", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "Mertic",
+        aiBlurb: "Australian, relies on Lamar Jackson to bail him out, low trade activity, hated by kosai and McCourt",
         location: "Tweed Heads, NSW, Australia", // (optional)
         bio:
             "As a Financial Instructor with the Retirement Education Foundation, I'm proud to be part of a non-profit charitable organization that empowers individuals approaching or in retirement with advanced financial literacy. Through in-depth, education-first workshops and courses, we help people understand the complexities of retirement planning - covering everything from tax strategies to income distributions. Our mission is simple: to give people the confidence and clarity they need to make informed decisions that support a secure and fulfilling retirement.\n \n" +
@@ -171,6 +181,7 @@ export const managers = [
     {
         managerID: "463158509706407936", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "paynemd",
+        aiBlurb: "motto is 'win or lose booze', Cleveland Browns fan, low trade scale, just here to have a good time",
         location: "Riverview, MI, USA", // (optional)
         bio:
             "I'm the popularest guy in the group \n Big-ass stomach, bitches think I'm cute. 50 told me to do sit-ups to get buff \n Did two and a half and couldn't get up.",
@@ -194,6 +205,7 @@ export const managers = [
     {
         managerID: "463158817245360128", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "Mazzy_",
+        aiBlurb: "eternal rebuilder, Bills fan, main rival is Pat, somehow always rebuilding despite years in the league",
         location: "Northville, MI, USA", // (optional)
         bio:
             "Death. Taxes. Rebuild. I am bad at fantasy football.",
@@ -217,6 +229,7 @@ export const managers = [
     {
         managerID: "463382780466688000", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "fshatara2",
+        aiBlurb: "former champion, currently holds the toilet bowl trophy, 'when all else fails, Josh Allen', darts rival of Scott",
         location: "Detroit, MI, USA", // (optional)
         bio:
             "Former champion, currently in possession of the toilet bowl trophy. Firm believer in low impact activities. Life goals include, but not limited to; becoming best friends with QB1, figure out my driver, and understand whatever the fuck matcha is. \n \n https://hydeshailmary.com",
@@ -239,6 +252,7 @@ export const managers = [
     {
         managerID: "463399096221167616", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "kosai",
+        aiBlurb: "newest manager (2023), here purely to talk shit, particular hatred of Mertic, surprisingly competitive",
         location: "Novi, MI, USA", // (optional)
         bio: "Still just here to talk shit and suck the fun out of it for everyone else. Also fuck Mertic",
         photo: "/managers/kosai.jpg", // square ratio recommended (no larger than 500x500)
