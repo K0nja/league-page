@@ -1,14 +1,12 @@
 <script>
     import Button, {Label} from "@smui/button";
     import Textfield from "@smui/textfield";
-	import { createEventDispatcher } from 'svelte';
 
     export let showWrite;
-
-	const dispatch = createEventDispatcher();
+    export let oncreateComment;
 
     const submit = () => {
-        dispatch('createComment', {comment, author});
+        oncreateComment?.({ detail: {comment, author} });
     }
 
     let comment = '';

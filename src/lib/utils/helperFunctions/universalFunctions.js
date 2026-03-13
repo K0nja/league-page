@@ -2,7 +2,7 @@ import { managers as managersObj } from '$lib/utils/leagueInfo';
 import { goto } from "$app/navigation";
 import { stringDate } from './news';
 
-const QUESTION = 'managers/question.jpg';
+const QUESTION = '/managers/question.jpg';
 
 export const cleanName = (name) => {
     return name.replace('Team ', '').toLowerCase().replace(/[ ’'!"#$%&\\'()\*+,\-\.\/:;<=>?@\[\\\]\^_`{|}~']/g, "");
