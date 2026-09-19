@@ -35,13 +35,13 @@ export const managers = [
         aiBlurb: "overpays for elite talent, donated dues 7 straight years, finally trying to turn it around, at least he's a playoff bubble team now, sends the most trades and annoys everyone with offers", // (optional) short personality note for AI-generated posts
         location: "Dearborn, MI, USA", // (optional)
         bio:
-            "I overpay for elite talent and always will.  I have donated dues for 7 straight years.  Here's to hopefully making some back this year 🍻🥂",
+            "I'm a new dad. I've never been a champion, this is the closest I'll ever be. It was more fun rebuilding than winning.",
         photo: "/managers/konja.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2014, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "ari", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "GreyZay5000", // Can be anything (usually your rival's name)
+            name: "The Usurper", // Can be anything (usually your rival's name)
             link: 3, // manager array number within this array, or null to link back to all managers page
             image: "/managers/zack.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
@@ -49,7 +49,7 @@ export const managers = [
         valuePosition: "Picks", // (optional) Favorite position (QB, WR, RB, TE, Picks, DL, SS, DB, and many more)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Depth? Who needs depth? If the big dogs go down I'm losing anyways.",
+            "Fuck. Them. Picks.",
         tradingScale: 10, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -82,23 +82,23 @@ export const managers = [
         aiBlurb: "reigning 2025 champion after never winning a playoff ever, Washington fan, gets blackout drunk at Jager Cup, rivals with Mertic",
         location: "Allen Park, MI, USA", // (optional)
         bio:
-            "What's left to say. I suck. Maybe I'll get a cat. I got blackout drunk the first night of Jager Cup and got body slammed into a deck. Trying to spice things up in life, change up the routine. My golf handicap fluctuates between 10 and 20. I cannot drink alcohol successfully. #420blazeup",
+            "I have a lot of accolades and finally something to show for it. 2025 champion. Fuck Mertic. I golf a lot and no I haven't gotten any better but at least I'm not afraid to use the driver now. I still cannot drink successfully.",
         photo: "/managers/mccourt.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2013, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-        mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+        favoriteTeam: "lac", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        mode: "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Bogan Racist Fuck", // Can be anything (usually your rival's name)
+            name: "Snake Bitch", // Can be anything (usually your rival's name)
             link: 5, // manager array number within this array, or null to link back to all managers page
             image: "/managers/john.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 654, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        valuePosition: "DE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        valuePosition: "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Fuck Mertic",
-        tradingScale: 8, // 1 - 10
-        preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+            "Always aim to compete. If I ever find myself rebuilding I hope it's short-lived.",
+        tradingScale: 5, // 1 - 10
+        preferredContact: "Email", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
         managerID: "463097467752148992", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -106,13 +106,13 @@ export const managers = [
         aiBlurb: "former champion who mastered the tank, now trying to compete again, wrote a love letter to losing, is engaged  to Michelle this year, has likely the best team in the league",
         location: "Berkley, MI, USA", // (optional)
         bio:
-            "I manage a historically volatile dynasty football roster and have 3 cats that hate each other. None of us know peace, but we know persistence.",
+            "Cat guy. Plant guy. Sports guy. Engaged guy. Bald guy.",
         photo: "/managers/zack.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2008, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "no", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Everyone is my best friend", // Can be anything (usually your rival's name)
+            name: "N/A", // Can be anything (usually your rival's name)
             link: 3, // manager array number within this array, or null to link back to all managers page
             image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
@@ -120,14 +120,9 @@ export const managers = [
         valuePosition: "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "There was a time, not long past, when the weight of failure was the only thing that kept me afloat. I was a captain of a sinking ship, willfully so—tanking, they called it. It was my way, my name, my soul. The tides of defeat washed over me, season after season, and yet I pressed on through storm and sorrow, chasing some far-off glimmer atop the standings. </p></p>" + 
-            "And lo, I reached it. The summit. I stood where champions stand, and the wind was still. You'd think triumph would warm these old bones... but tell me—why then do I feel so cold?\n \n" +
-            "I find myself gazing astern, past the golden shores, toward those dark and briny depths where loss lived... and you.\n \n" +
-            "Ah, the tank—how cruel, how comforting. We were terrible, yes, but we were true. One day, when the cheers fade and the record books close, I shall return to you. For in the silence of defeat, I found something purer than victory.\n \n" +
-            "One day, my beloved tank, we'll drift together once more—adrift, but never apart. \n \n" +
-            "Forever yours.",
-        tradingScale: 10, // 1 - 10
-        preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+            "Getting Bijan, Gibbs, and Achane in a single draft was all skill. Just draft good, not hard.",
+        tradingScale: 8, // 1 - 10
+        preferredContact: "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
         managerID: "463130879590395904", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -135,21 +130,24 @@ export const managers = [
         aiBlurb: "fantasy veteran since 2001, 99-23 in iPhone darts vs Fred and waiting for the perfect moment for win 100, loves ketchup, edgy jokes, punters, and lives in Denver",
         location: "Denver, CO, USA", // (optional)
         bio:
-            "I'm 99-23-21 against Fred in iPhone darts. I told him sending the next game is on him. Whenever he's most confident, that's when I want to take win 100. I've been waiting months.",
+        "Didn't get updated last year, so what are the odds its get updated this year.\n" +
+        "Feel free to actually use that \n" +
+        "... \n" +     
+        "I'm 99-23-21 against Fred in iPhone darts. I told him sending the next game is on him. Whenever he's most confident, that's when I want to take win 100. I've been waiting months.",
         photo: "/managers/scott.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2001, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "was", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "In Pat's honor", // Can be anything (usually your rival's name)
-            link: 9, // manager array number within this array(0-9), or null to link back to all managers page
-            image: "/managers/mazzy.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+            name: "Let's just get along", // Can be anything (usually your rival's name)
+            link: 6, // manager array number within this array(0-9), or null to link back to all managers page
+            image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
-        favoritePlayer: 3272, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+        favoritePlayer: 1170, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy: "Have fun, be safe, make good choices!",
-        tradingScale: 8, // 1 - 10
+        tradingScale: 7, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
@@ -158,24 +156,22 @@ export const managers = [
         aiBlurb: "American who lives in Austraila and claims he is Arabic but really he is 25% at most of Turkish decent, relies on Lamar Jackson to bail him out, low trade activity, hated by kosai and McCourt, is a dad",
         location: "Tweed Heads, NSW, Australia", // (optional)
         bio:
-            "As a Financial Instructor with the Retirement Education Foundation, I'm proud to be part of a non-profit charitable organization that empowers individuals approaching or in retirement with advanced financial literacy. Through in-depth, education-first workshops and courses, we help people understand the complexities of retirement planning - covering everything from tax strategies to income distributions. Our mission is simple: to give people the confidence and clarity they need to make informed decisions that support a secure and fulfilling retirement.\n \n" +
-            "In addition to my work with REF, I serve as a Financial Advisor at C2 Private Wealth, where I have the privilege of working one-on-one with clients to build customized retirement plans. I'm passionate about helping people retire sooner, spend more confidently, and live with less financial anxiety. By constructing highly individualized retirement plans tailored to each client's goals, we deliver the best possible outcomes and help make their ideal retirement a reality.\n \n" +
-            "At the core of both roles is a commitment to education, clarity, and meaningful outcomes. Whether through teaching or advising, my focus is always on helping others make the most of their retirement years.",
+            "Dad in Australia. I need to win in fantasy football to prove my self worth. ",
         photo: "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2007, // (optional) when did the manager start playing fantasy football
-        favoriteTeam: "bal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+        favoriteTeam: "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Red Boi", // Can be anything (usually your rival's name)
+            name: "Gingervitis", // Can be anything (usually your rival's name)
             link: 2, // manager array number within this array, or null to link back to all managers page
             image: "/managers/mccourt.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
-        favoritePlayer: 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-        valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+        favoritePlayer: 516, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+        valuePosition: "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "scrape together enough wins to get into playoffs and get bailed out by Lamar. Maybe hit on a third round pick every now and then.",
-        tradingScale: 4, // 1 - 10
+            "Accidentally become fantasy relevant. Only team to never miss the playoffs.",
+        tradingScale: 8, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
@@ -184,22 +180,22 @@ export const managers = [
         aiBlurb: "motto is 'win or lose booze', Cleveland Browns fan, low trade scale, just here to have a good time, brother in law with Mazzy and they share a name, Michael. Their wives are also sisters.",
         location: "Riverview, MI, USA", // (optional)
         bio:
-            "I'm the popularest guy in the group \n Big-ass stomach, bitches think I'm cute. 50 told me to do sit-ups to get buff \n Did two and a half and couldn't get up.",
+            "Dad to Palmer and Colton. Everything else is irrelevant",
         photo: "/managers/payne.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2006, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "cle", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-        mode: "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+        mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "IR", // Can be anything (usually your rival's name)
-            link: null, // manager array number within this array, or null to link back to all managers page
-            image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+            name: "McCourt", // Can be anything (usually your rival's name)
+            link: 2, // manager array number within this array, or null to link back to all managers page
+            image: "/managers/mccourt.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 240, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "Win or lose booze",
-        tradingScale: 3, // 1 - 10
+            "Stay the course",
+        tradingScale: 4, // 1 - 10
         preferredContact: "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
@@ -208,23 +204,23 @@ export const managers = [
         aiBlurb: "eternal rebuilder, Bills fan, main rival is Pat, somehow always rebuilding despite years in the league, is the league punching bag and we are always extra mean to him, but only in good fun.",
         location: "Northville, MI, USA", // (optional)
         bio:
-            "Death. Taxes. Rebuild. I am bad at fantasy football.",
+            "A pretty significant part of my actual job is risk management and mathematical projections. Turns out this is harder 🤷🏽‍♂️",
         photo: "/managers/mazzy.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2016, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Cheap Soy Burger Patty", // Can be anything (usually your rival's name)
-            link: 1, // manager array number within this array, or null to link back to all managers page
-            image: "/managers/pat.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+            name: "✌🏼️", // Can be anything (usually your rival's name)
+            link: 7, // manager array number within this array, or null to link back to all managers page
+            image: "/managers/everyone.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
         favoritePlayer: 421, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
         philosophy:
-            "I logically understand that at some point the rebuild should culminate in a team worthy of competing for a championship, but I haven't quite cracked the code on how to actually do that. As long as I beat Patty, I'll be happy though.",
+            "Statistically speaking it should be nearly impossible for me to *never* win this league, right...?",
         tradingScale: 10, // 1 - 10
-        preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+        preferredContact: "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
         managerID: "463382780466688000", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -232,43 +228,43 @@ export const managers = [
         aiBlurb: "former champion, just moved to Nashville from Detroit abandoning all his friends, 'when all else fails, Josh Allen', darts rival of Scott but has a losing record.",
         location: "Detroit, MI, USA", // (optional)
         bio:
-            "Former champion, currently in possession of the toilet bowl trophy. Firm believer in low impact activities. Life goals include, but not limited to; becoming best friends with QB1, figure out my driver, and understand whatever the fuck matcha is. \n \n https://hydeshailmary.com",
+            "Multiple trophy winner. Pro Josh Allen. Anti Downriver. ",
         photo: "/managers/fred.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2012, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-        mode: "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+        mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Coward", // Can be anything (usually your rival's name)
+            name: "cunt, piece of shit, pathetic, loser, coward, etc.", // Can be anything (usually your rival's name)
             link: 8, // manager array number within this array, or null to link back to all managers page
             image: "/managers/fred.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
-        favoritePlayer: 2212, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+        favoritePlayer: 4984, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-        philosophy: "When all else fails, Josh Allen",
-        tradingScale: 8, // 1 - 10
-        preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+        philosophy: "When else fails, we have Josh and a sarcastic sense of humor. ",
+        tradingScale: 10, // 1 - 10
+        preferredContact: "Phone", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
         managerID: "463399096221167616", // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
         name: "kosai",
         aiBlurb: "obnoxious, loud, think's he's the shit, here purely to talk shit, particular hatred of Mertic, surprisingly competitive",
         location: "Novi, MI, USA", // (optional)
-        bio: "Still just here to talk shit and suck the fun out of it for everyone else. Also fuck Mertic",
+        bio: "I'm here because I'm self-loathing and I'm filling this out so I don't get bitched at",
         photo: "/managers/kosai.jpg", // square ratio recommended (no larger than 500x500)
         fantasyStart: 2023, // (optional) when did the manager start playing fantasy football
         favoriteTeam: "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
         mode: "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
         rival: {
-            name: "Mertic, Scott, and McCourt", // Can be anything (usually your rival's name)
-            link: 5, // manager array number within this array, or null to link back to all managers page
-            image: "/managers/mertic.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+            name: "Bald POS", // Can be anything (usually your rival's name)
+            link: 3, // manager array number within this array, or null to link back to all managers page
+            image: "/managers/zack.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
         },
-        favoritePlayer: 9221, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+        favoritePlayer: 461, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
         valuePosition: "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
         rookieOrVets: "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-        philosophy: "Have the best players and the most good players at all the positions ",
-        tradingScale: 6, // 1 - 10
+        philosophy: "Balance being young and competing because if i am in the toilet bowl, i will win it.",
+        tradingScale: 8, // 1 - 10
         preferredContact: "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
 ];
